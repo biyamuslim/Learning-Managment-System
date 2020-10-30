@@ -792,7 +792,9 @@ do
     cin>>A;
 	if(A==1)
 	{
+		cout<<""""""""""""""""""""""""""""""""<<endl;
 	   cout<<"\nEnter details to add course : ";
+		cout<<""""""""""""""""""""""""""""""""<<endl;
 	   cout<<endl;
 	   
 	   cout<<"enter Course Code, Semester, Credit Hour, Enter course name ";
@@ -909,7 +911,7 @@ do
 	  
 	else if (A==7)
 	{
-		cout<<"Enter the Student name  you Want to Change"<<endl;
+		cout<<"Enter the Student name you Want to Change"<<endl;
 	     cin >> StudentName;
 	     int result = searchArray(StudentName,stdNamesList);
 	    
